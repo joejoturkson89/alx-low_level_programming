@@ -2,7 +2,7 @@
 /**
  * print_sign - main function
  * @c: character to compare
- * Return: 1 if positive, 0 if zero, -1 if negative
+ * Return: 1 for positive num,0 for zero or -1 for negative
  */
 
 int print_sign(int n)
