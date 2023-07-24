@@ -3,7 +3,7 @@
 
 /**
  * puts2 - puts string twice
- * @s: string to put twice
+ * @str: string to put twice
  */
 
 void puts2(char *str)
