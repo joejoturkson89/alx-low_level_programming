@@ -3,7 +3,7 @@
  * add_node_end - adds a new node at the end of a linked list
  * @head: first node of the linked list
  * @str: new string to be added at the end of the linked list
- * @Return: NULL if it fail/starting address of the linked list
+ * Return: NULL if it fail/starting address of the linked list
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
