@@ -7,7 +7,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	ssize_t fild = 0, chx = 0, n = 0;
+	ssize_t fild = 0, chk = 0, n = 0;
 
 	if (!filename)
 		return (-1);
@@ -21,8 +21,8 @@ int create_file(const char *filename, char *text_content)
 
 	while (text_content[n])
 		n++;
-	chx = write(fild, text_content, n);
-		if (chx < 0)
+	chk = write(fild, text_content, n);
+		if (chk < 0)
 			return (-1);
 
 				close(fild);
