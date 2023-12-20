@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """This script defines an island perimeter measuring function."""
 
+
 def island_perimeter(grid):
     """This returns the perimeter of an island.
     The grid represents water by 0 and land by 1.
